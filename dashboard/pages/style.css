@@ -1,0 +1,29 @@
+.headline{
+    margin-left: 550px;
+}
+
+.headline2{
+    margin-left: 600px;
+}
+
+.register_pic{
+   margin-left: 580px;
+   height: 22%;
+   width:22%;
+}
+
+.login_pic{
+    margin-left: 600px;
+    height: 25%;
+    width:25%;
+}
+
+.form_main{
+    margin-left: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    background-color: black;
+}

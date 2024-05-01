@@ -1,0 +1,39 @@
+.home-main{
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.home-icon{
+    margin-left: 700px;
+    margin-top: 50px;
+}
+
+.home-txt h2{
+    margin-left: 660px;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    color: var(--primary-text-color);
+    font-size: 36px;
+}
+
+.home-txt p{
+    margin-left: 610px;
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    color: var(--secondary-text-color);
+    font-size: 18px;
+}
+
+.home-txt img{
+    margin-left: 700px;
+    
+}
+  
+.input{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
