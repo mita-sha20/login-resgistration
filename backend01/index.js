@@ -8,7 +8,8 @@ const mongoconfig=require("././config/mongoconfig")
 mongoconfig();
 app.use(cors())
 app.use(express.json());
-app.use('/',router)
+app.use('/',router);
+
 
 const port = process.env.PORT || 8001
 

@@ -24,6 +24,7 @@ const Otpveri = () => {
   };
   return (
    <>
+   <h3 className='headline'>This is the otpVerification page. Chcek your email for otpVerification</h3> 
     <Form
     name="basic"
     labelCol={{
@@ -61,7 +62,7 @@ const Otpveri = () => {
         span: 16,
       }}
     >
-      <Button type="primary" htmlType="submit" >
+      <Button className='btn' type="primary" htmlType="submit" >
         Submit
       </Button>
     </Form.Item>

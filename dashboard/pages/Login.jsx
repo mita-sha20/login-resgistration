@@ -27,8 +27,8 @@ const Login = () => {
      
       setmsg(data.data.success);
       setTimeout(()=>{
-          navigate(`/otpVerification/${values.email}`);
-          // navigate('/homepage')
+          // navigate(`/otpVerification/${values.email}`);
+          navigate('/homepage')
       },1500)
     };
   

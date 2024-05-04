@@ -48,7 +48,7 @@ let registrationcontroller = async (req , res) => {
                const info = await transporter.sendMail({
                  from: 'SAMIHA', 
                  to: email, 
-                 subject: "this is your verification", 
+                 subject: 'this is your verification', 
                  html: `<a href="http://localhost:5173/emailverification/${token}">Click here</a>`, 
                });
           })

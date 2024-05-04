@@ -9,6 +9,7 @@ const forgotcontroller = require('../../controllers/forgotController')
 const newpasscontroller = require('../../controllers/newpasscontroller')
 const newemailcontroller = require('../../controllers/newemailcontroller')
 
+
 route.post('/registration' , registrationcontroller);
 route.post('/login' , loginController);
 route.post('/otpVerification', otpController);
@@ -17,6 +18,7 @@ route.post('/resetemail', resetController);
 route.post('/forgotpass', forgotcontroller);
 route.post('/newpassword', newpasscontroller);
 route.post('/newresetemail', newemailcontroller);
+
 
 
 

@@ -13,6 +13,8 @@ import Resetemail from "../pages/Resetemail";
 import Newpassword from "../pages/Newpassword";
 import Newemail from "../pages/Newemail";
 import Homepage from "../pages/Home/Homepage";
+import Selectproduct from "../pages/Selectproduct";
+
 
 
 
@@ -55,7 +57,10 @@ const router = createBrowserRouter(
           path="/homepage/"
           element={<Homepage />}
         />
-        
+         <Route
+          path="/selectproduct/"
+          element={<Selectproduct />}
+        />
     </Route>
   ))
 
